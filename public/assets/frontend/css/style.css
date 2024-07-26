@@ -61,7 +61,7 @@ h4,
 h5,
 h6 {
 	font-weight: normal;
-	color: #fff;
+	/* color: #fff; */
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
@@ -268,6 +268,72 @@ input:focus{
 .owl-carousel .owl-nav div:hover {
 	background: #2B96CC;
 	color: #fff
+}
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: #1977cc;
+  background-color: #ffffff;
+  padding: 60px 0;
+  scroll-margin-top: 72px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+
+  section,
+  .section {
+    scroll-margin-top: 60px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 1px;
+  background: color-mix(in srgb, #1977cc, transparent 60%);
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  margin: auto;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1977cc;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-title p {
+  margin-bottom: 0;
 }
 
 
@@ -504,3 +570,66 @@ input:focus{
     color: #828282;
     font-size: 15px;
 }
+
+
+/*--------------------------------------------------------------
+# experience Section
+--------------------------------------------------------------*/
+.experience {
+	overflow: hidden;
+  }
+  
+  .experience .nav-tabs {
+	border: 0;
+  }
+  
+  .experience .nav-link {
+	border: 0;
+	padding: 12px 15px 12px 0;
+	transition: 0.3s;
+	color: black;
+	border-radius: 0;
+	border-right: 2px solid color-mix(in srgb, #1977cc, transparent 90%);
+	font-weight: 600;
+	font-size: 15px;
+  }
+  
+  .experience .nav-link:hover {
+	color: #1977cc;
+  }
+  
+  .experience .nav-link.active {
+	color: #1977cc;
+	border-color: #1977cc;
+	background-color: #ffffff;
+  }
+  
+  .experience .tab-pane.active {
+	animation: fadeIn 0.5s ease-out;
+  }
+  
+  .experience .details h3 {
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 20px;
+  }
+  
+  .experience .details p {
+	color: color-mix(in srgb, #1977cc, transparent 20%);
+  }
+  
+  .experience .details p:last-child {
+	margin-bottom: 0;
+  }
+  
+  @media (max-width: 992px) {
+	.experience .nav-link {
+	  border: 0;
+	  padding: 15px;
+	}
+  
+	.experience .nav-link.active {
+	  color: #1977cc;
+	  background: #1977cc;
+	}
+  }
