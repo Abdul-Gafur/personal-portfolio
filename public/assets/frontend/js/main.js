@@ -1,114 +1,62 @@
-(function ($) {
-	"use strict";
+(function() {
+	"user strict";
 
-	/*----------------------------
-       	Preloader Active
-       	------------------------------*/
+	  /**
+   * Apply .scrolled class to the body as the page is scrolled down
+   */
+	  function toggleScrolled() {
+		const selectBody = document.querySelector('body');
+		const selectHeader = document.querySelector('#header');
+		if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
+		window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
+	  }
+	
+	  document.addEventListener('scroll', toggleScrolled);
+	  window.addEventListener('load', toggleScrolled);
 
-	$(window).on('load',function(){
-		$('.loading').fadeOut();
-	});
-
-       /*----------------------------
-       		Owlcarousel Active
-       		------------------------------*/
-	$(".owl-carousel").owlCarousel({
-		items: 1,
-		autoplay:true,
-		autoplayTimeout:5000,
-		loop:true,
-		center:true,
-	});
-
-
-
-       /*----------------------------
-       		Mobile menu Active
-       		------------------------------*/
-	$('#mobile-menu').meanmenu({
-		meanMenuContainer: '.mobile-menu',
-		meanScreenWidth: "992"
-	});
-
-
-
-       /*----------------------------
-       		Smoothscroll Active
-       		------------------------------*/
-
-	$('.main-menu nav ul').onePageNav({
-		currentClass: 'active',
-		changeHash: true,
-		scrollSpeed: 750,
-		scrollThreshold: 0.5,
-		filter: '',
-		easing: 'swing',
-	});
-	$('html').smoothScroll();
-
-
-
-       /*----------------------------
-       		Sticky Header Active
-       		------------------------------*/
-
-	$(window).on('scroll',function(){
-		if ($(window).scrollTop() >= 330) {
-			$('.header-area').addClass('fixed');
-		}
-		else {
-			$('.header-area').removeClass('fixed');
-		}
-	});
-
-
-
-       /*----------------------------
-       		MagnificPopup Active
-       		------------------------------*/
-
-	$('.popup').magnificPopup({
-		type: 'image',
-	});
-
-
-
-       /*----------------------------
-       		Portfolio isotope Active
-       		------------------------------*/
-
-	$('.container').imagesLoaded( function() {
-
-		$('.portfolio-category').on( 'click', 'a', function() {
-			event.preventDefault();
-			var filterValue = $(this).attr('data-filter');
-			$grid.isotope({ filter: filterValue });
+	function aosInit() {
+		AOS.init({
+		  duration: 600,
+		  easing: 'ease-in-out',
+		  once: true,
+		  mirror: false
 		});
-		var $grid = $('.grid').isotope({
-			itemSelector: '.grid-item',
-			percentPosition: true,
-			masonry: {
-				columnWidth: '.grid-item',
-			}
-		})	
-	});
-	$('.portfolio-category').on('click', 'li', function () {
-		$(this).addClass('active').siblings().removeClass('active');
-	});
+	  }
+	  window.addEventListener('load', aosInit);
 
+	    /**
+   * Init typed.js
+   */
+  const selectTyped = document.querySelector('.typed');
+  if (selectTyped) {
+    let typed_strings = selectTyped.getAttribute('data-typed-items');
+    typed_strings = typed_strings.split(',');
+    new Typed('.typed', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
 
-       /*----------------------------
-       		Back to top scrollbar Active
-       		------------------------------*/
-
-	$(window).on('scroll',function(){
-		if ($(window).scrollTop() >= 330) {
-			$('.back_top').fadeIn();
-		}
-		else {
-			$('.back_top').fadeOut();
-		}
-	});
-
-})(jQuery);	
-
+    /**
+   * Init swiper sliders
+   */
+	function initSwiper() {
+		document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
+		  let config = JSON.parse(
+			swiperElement.querySelector(".swiper-config").innerHTML.trim()
+		  );
+	
+		  if (swiperElement.classList.contains("swiper-tab")) {
+			initSwiperWithCustomPagination(swiperElement, config);
+		  } else {
+			new Swiper(swiperElement, config);
+		  }
+		});
+	  }
+	
+	  window.addEventListener("load", initSwiper);
+	  
+})();
