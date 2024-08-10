@@ -941,6 +941,7 @@ section,
 .progress-bar {
     background: linear-gradient(to left, #660033 0%, #070420 30%);
     transition: 0.9s;
+    width: 1px;
 }
 .progressbar-label h5 span {
     color: #828282;

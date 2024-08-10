@@ -79,7 +79,7 @@
                             alt="">
                     </div>
 
-                    <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
+                    <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in" data-aos-delay="100">
                         <h2>Abdul-Gafur Saeed</h2>
                         <p>I'm a <span class="typed"
                                 data-typed-items="Web Developer, Laravel Developer, PHP Developer, SQL Developer">Software
@@ -120,7 +120,7 @@
             <div class="about-area pt-100">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 valign">
+                        <div class="col-lg-4 valign" data-aos="fade-right">
                             <div class="content mb-50">
                                 <div class="section-head text-left mb-30">
                                     <h1>ABOUT ME</h1>
@@ -202,15 +202,15 @@
         <!-- ABOUT SECTION END -->
 
         <!-- experience Section -->
-        <section id="experience" class="experience section">
+        <section id="experience" class="experience section" >
 
             <!-- Section Title -->
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2>02. Experience</h2>
                 <div><span>Where I have</span> <span class="description-title">Worked</span></div>
             </div><!-- End Section Title -->
 
-            <div class="container">
+            <div class="container" data-aos="fade">
 
                 <div class="row">
                     <div class="col-lg-3">
@@ -304,14 +304,14 @@
         <section class="projects" id="projects">
 
             <!-- Section Title -->
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2>03. Works</h2>
                 <div><span>Some Things I have</span> <span class="description-title">Built</span></div>
             </div><!-- End Section Title -->
 
-            <div class="projects container">
+            <div class="projects container" data-aos="fade" data-aos-delay="100">
                 {{-- project 1 --}}
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-6">
                         <div class="project-content">
                             <h2 class="title">My SMS</h2>
@@ -340,7 +340,7 @@
                     </div>
                 </div>
                 {{-- project 2 --}}
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-lg-6 project-image">
                         <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
                             class="img-fluid">
@@ -370,7 +370,7 @@
 
                 </div>
                 {{-- project 3 --}}
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-delay="400">
                     <div class="col-lg-6">
                         <div class="project-content">
                             <h2 class="title">My SMS</h2>
