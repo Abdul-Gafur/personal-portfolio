@@ -940,6 +940,7 @@ section,
 
 .progress-bar {
     background: linear-gradient(to left, #660033 0%, #070420 30%);
+    transition: 0.9s;
 }
 .progressbar-label h5 span {
     color: #828282;
@@ -1262,7 +1263,6 @@ section,
 	padding: 10px 15px;
 	box-shadow: none;
 	border-radius: 0;
-	color: var(--default-color);
 	background-color: color-mix(in srgb, #ffffff, transparent 50%);
 	border-color: color-mix(in srgb, #444444, transparent 80%);
   }
@@ -1290,4 +1290,18 @@ section,
   
   .contact .php-email-form button[type=submit]:hover {
 	background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  }
+
+  /* Footer */
+
+  .footer {
+    background-color: #001f3e;
+    padding: 20px 0;
+
+  }
+
+  .footer p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
   }

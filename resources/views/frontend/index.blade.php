@@ -30,7 +30,7 @@
             <div
                 class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-                <a href="index.html" class="logo d-flex align-items-center">
+                <a href="{{ route('homepage') }}" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
                     <!-- <img src="assets/img/logo.png" alt=""> -->
                     <h1 class="sitename">Ghafcodes</h1>
@@ -38,11 +38,11 @@
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="about.html" class="active">01. About</a></li>
-                        <li><a href="resume.html">02. Experience</a></li>
-                        <li><a href="services.html">03. Work</a></li>
-                        <li><a href="portfolio.html">04. Reviews</a></li>
-                        <li><a href="portfolio.html">05. Contact</a></li>
+                        <li><a href="#about" class="active">01. About</a></li>
+                        <li><a href="#experience">02. Experience</a></li>
+                        <li><a href="#projects">03. Work</a></li>
+                        <li><a href="#reviews">04. Reviews</a></li>
+                        <li><a href="contact">05. Contact</a></li>
                         {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                       <li><a href="#">Dropdown 1</a></li>
@@ -69,7 +69,7 @@
         <!-- header area ends -->
 
         <!-- HERO AREA START -->
-        <section id="hero" class="hero section dark-background">
+        <section id="hero about" class="hero section dark-background">
             <img src="{{ asset('assets/frontend/images/hero-bg-2.jpg') }}" alt="" class="hero-bg">
 
             <div class="container">
@@ -116,7 +116,7 @@
         <!-- HERO SECTIN END -->
 
         <!-- ABOUT SECTION START -->
-        <section id="about">
+        <section>
             <div class="about-area pt-100">
                 <div class="container">
                     <div class="row">
@@ -127,9 +127,8 @@
                                     <span class="span"></span>
                                 </div>
                                 <p>I'm a software developer specializing in web development, building exceptional
-                                    frontend and backend web experiences. I'm from Ghana. Currently, I'm exploring on AI
-                                    an Machine Learning to build AI drivered applications and am also actively
-                                    searching for a job opportunity.</p>
+                                    frontend and backend web experiences. I'm from Ghana. Currently, I'm expanding my skill set into Artificial Intellgence (AI) and Machine Learning (ML) to pioneer AI-driven applications and I'm actively
+                                    seeking job opportunities that align with ny passion for innovative technology solutions.</p>
                                 <a href="#" class="btn mt-30">Download CV</a>
                             </div>
                         </div>
@@ -143,7 +142,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="content mb-50">
+                            <div class="skills-animation content mb-50">
                                 <div class="skills-head-type">
                                     <h1>My Skills.</h1>
                                 </div>
@@ -302,7 +301,7 @@
         </section><!-- /experience Section -->
 
         {{-- projects section --}}
-        <section class="projects" id="projects section">
+        <section class="projects" id="projects">
 
             <!-- Section Title -->
             <div class="container section-title">
@@ -506,7 +505,7 @@
 
 
       <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -539,7 +538,7 @@
                 <i class="far fa-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Me</h3>
-                  <p><a href="mailto:abdulgfurshaattir@gmail.com">abdulgafurshaattir@gmail"></a></p>
+                  <p><a href="mailto:abdulgfurshaattir@gmail.com">abdulgafurshaattir@gmail</a></p>
                 </div>
               </div><!-- End Info Item -->
   
@@ -574,7 +573,12 @@
         </div>
   
       </section><!-- /Contact Section -->
-  
+
+      {{-- Footer starts --}}
+      <section class="footer">
+       <p> &copy; <b>Ghaf Portfolio Website</b> All Rights Reserved <br>
+        Designed with &hearts; by Abdul-Gafur</p>
+      </section>
 
     </div>
 
@@ -600,6 +604,7 @@
     <script src="{{ asset('assets/frontend/js/tilt.jquery.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/vendor/typed.js/typed.umd.js') }}"></script>
     <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
 
 </body>
