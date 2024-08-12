@@ -237,16 +237,16 @@
                                 <div class="row">
                                     <div class="col-lg-8 details order-2 order-lg-1">
                                         <h3>Software Developer @ Paahibu Space</h3>
-                                        <p class="fst-italic">2024 - Present</p>
+                                        <p class="fst-italic">2021 - Present</p>
                                         <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
                                             Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est
                                             repellat minima eveniet eius et quis magni nihil.</p>
                                         <div class="work-skills">
                                             <ul>
-                                                <li>React</li>
+                                                <li>Bootstrap</li>
                                                 <li>PHP</li>
-                                                <li>Python</li>
                                                 <li>Javascript</li>
+                                                <li>Python</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -314,19 +314,18 @@
                 <div class="row" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-6">
                         <div class="project-content">
-                            <h2 class="title">My SMS</h2>
+                            <h2 class="title">My POS</h2>
                             <ul class="stacks-used">
                                 <li>HTML</li>
-                                <li>CSS</li>
+                                <li>Bootstrap</li>
                                 <li>Javascript</li>
                                 <li>PHP</li>
-                                <li>Laravel</li>
+                                <li>CodeIgniter</li>
                             </ul>
-                            <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure
-                                voluptas iure porro quis delectus</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum at, eius
-                                aliquid quam dolore placeat fuga nisi voluptatem iste quis, sit suscipit officiis non,
-                                vero necessitatibus corporis? Harum, quisquam.</p>
+                            <p class="fst-italic">Inventory and Point Of Sale software</p>
+                            <p>MyPOS is built with PHP CodeIgniter, MyPOS is a versatile point of sale solution for various businesses, including pharmacies, cosmetics stores, supermarkets, and more.
+                                Key features include Inventory management, Point of Sale (POS), Transaction reporting and User management
+                                </p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
                                 <a href="#">Website <i class="fab fa-link"></i></a>
@@ -348,7 +347,7 @@
 
                     <div class="col-lg-6">
                         <div class="project-content">
-                            <h2 class="title">My SMS</h2>
+                            <h2 class="title">School Management System</h2>
                             <ul class="stacks-used">
                                 <li>HTML</li>
                                 <li>CSS</li>
