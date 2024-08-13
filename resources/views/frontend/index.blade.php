@@ -347,19 +347,16 @@
 
                     <div class="col-lg-6">
                         <div class="project-content">
-                            <h2 class="title">School Management System</h2>
+                            <h2 class="title">Lorut SHS Management System</h2>
                             <ul class="stacks-used">
-                                <li>HTML</li>
-                                <li>CSS</li>
+                                <li>HTML/CSS</li>
                                 <li>Javascript</li>
                                 <li>PHP</li>
+                                <li>MySQL</li>
                                 <li>Laravel</li>
                             </ul>
-                            <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure
-                                voluptas iure porro quis delectus</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum at, eius
-                                aliquid quam dolore placeat fuga nisi voluptatem iste quis, sit suscipit officiis non,
-                                vero necessitatibus corporis? Harum, quisquam.</p>
+                            <p class="fst-italic">A comprehensive SMS to streamline administrative tasks and enhance student management for educational institutions.</p>
+                            <p>This system enables administrators to efficiently manage student records, track attendance, grades, and fees, as well as communicate with parents and teachers. Key features include Student information management, Exam management, Fee management, SMS, Email messaging and reporting</p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
                                 <a href="#">Website <i class="fab fa-link"></i></a>
@@ -372,19 +369,77 @@
                 <div class="row" data-aos="fade-up" data-aos-delay="400">
                     <div class="col-lg-6">
                         <div class="project-content">
-                            <h2 class="title">My SMS</h2>
+                            <h2 class="title">OC Tutorial College Website</h2>
                             <ul class="stacks-used">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                                 <li>PHP</li>
                                 <li>Laravel</li>
+                                <li>SEO</li>
                             </ul>
-                            <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure
-                                voluptas iure porro quis delectus</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum at, eius
-                                aliquid quam dolore placeat fuga nisi voluptatem iste quis, sit suscipit officiis non,
-                                vero necessitatibus corporis? Harum, quisquam.</p>
+                            <p class="fst-italic">Omission and Comissions tutorial College Website and Admin CMS</p>
+                            <p>OCTC is a tutorial college serving the legal needs of students desirous of studying law & for those studying law to improve upon the content received from their various faculties and schools to enable them get into the professional law course to become lawyers.</p>
+                            <div class="d-flex">
+                                <a href="#">code <i class="fab fa-github"></i></a>
+                                <a href="#">Website <i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 project-image">
+                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                            class="img-fluid">
+                    </div>
+                </div>
+
+                {{-- project 4 --}}
+                <div class="row" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-lg-6">
+                        <div class="project-content">
+                            <h2 class="title">ChatDocs</h2>
+                            <ul class="stacks-used">
+                                <li>HTML/CSS</li>
+                                <li>Javascript</li>
+                                <li>MySQL</li>
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>System analyst</li>
+                                <li>Infrasture analyst</li>
+                                <li>Project manager</li>
+                                <li>security analyst</li>
+                            </ul>
+                            <p class="fst-italic">A Web based platform that leverages AI to enable users chat with their documents</p>
+                            <p>A web platform that leverages artificial intelligence to transform how users interact with documents. It enables users to engage in real-time, interactive conversations with their content, making document handling more dynamic and efficient.</p>
+                            <div class="d-flex">
+                                <a href="#">code <i class="fab fa-github"></i></a>
+                                <a href="#">Website <i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 project-image">
+                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                            class="img-fluid">
+                    </div>
+                </div>
+
+                {{-- project 5 --}}
+                <div class="row" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-lg-6">
+                        <div class="project-content">
+                            <h2 class="title">High Ranking Academy webiste and SMS</h2>
+                            <ul class="stacks-used">
+                                <li>HTML/CSS</li>
+                                <li>Javascript</li>
+                                <li>MySQL</li>
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>System analyst</li>
+                            </ul>
+                            <p class="fst-italic">High Ranking Academy school website and School Management System</p>
+                            <p>A comprehensive SMS to enhance student management for educational institutions.</p>
+                            <p>This system enables administrators to efficiently manage student records, track attendance, grades, and fees, as well as communicate with parents and teachers. </p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
                                 <a href="#">Website <i class="fas fa-link"></i></a>
