@@ -61,7 +61,7 @@
                     </ul>
                   </li> --}}
                     </ul>
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                    <i class="mobile-nav-toggle d-xl-none fas fa-list-ul"></i>
                 </nav>
 
             </div>
@@ -83,13 +83,13 @@
                         data-aos-delay="100">
                         <h2>Abdul-Gafur Saeed</h2>
                         <p>I'm a <span class="typed"
-                                data-typed-items="Web Developer, Laravel Developer, PHP Developer, System Analyst, Technical Facilitator, NextCloud Administrator">Software
+                                data-typed-items="Web Developer, NextCloud Administrator, Laravel Developer, PHP Developer, System Analyst, Technical Facilitator">Software
                                 Developer</span><span class="typed-cursor typed-cursor--blink"></span></p>
                         <div class="social-links">
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-facebook"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/abdul-gafur-saeed-b26434246/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
 
@@ -519,6 +519,11 @@
 
                 {{-- project 4 --}}
                 <div class="row" data-aos="fade-up" data-aos-delay="400">
+
+                    <div class="col-lg-6 project-image">
+                        <img src="{{ asset('assets/frontend/images/projects/chatdocs.png') }}" alt=""
+                            class="img-fluid">
+                    </div>
                     <div class="col-lg-6">
                         <div class="project-content">
                             <h2 class="title">ChatDocs</h2>
@@ -545,10 +550,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 project-image">
-                        <img src="{{ asset('assets/frontend/images/projects/chatdocs.png') }}" alt=""
-                            class="img-fluid">
-                    </div>
                 </div>
 
                 {{-- project 5 --}}
@@ -745,7 +746,7 @@
                             <i class="far fa-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Me</h3>
-                                <p><a href="mailto:abdulgfurshaattir@gmail.com">abdulgafurshaattir@gmail</a></p>
+                                <p><a href="mailto:abdulgfurshaattir@gmail.com">abdulgafurshaattir@gmail.com</a></p>
                             </div>
                         </div><!-- End Info Item -->
 
