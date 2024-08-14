@@ -599,7 +599,7 @@
             </div>
   
             <div class="col-lg-8">
-              <form action="{{ route('frontend.contact') }}" method="post" class="php-email-form" id="php-email-form" data-aos="fade-up" data-aos-delay="200" >
+              <form action="{{ route('frontend.contact') }}" method="post" class="php-email-form" id="php-email-form" data-aos="fade-up" data-aos-delay="200" enctype="multipart/form-data">
                 @csrf
                 <div class="error-message"></div>
 
@@ -661,13 +661,12 @@
     </div>
 
     <!-- js here -->
-    <script src="{{ asset('assets/frontend/js/animate-heading.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/vendor/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/popper.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/animate-heading.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/particles.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/particles-custom.js') }}"></script>
+    {{-- <script src="{{ asset('assets/frontend/js/particles.js') }}"></script> --}}
+    {{-- <script src="{{ asset('assets/frontend/js/particles-custom.js') }}"></script> --}}
     <script src="{{ asset('assets/frontend/js/jquery.nav.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/imagesloaded.pkgd.min.js') }}"></script>
@@ -679,9 +678,12 @@
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/tilt.jquery.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/tilt.jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/jquery-2.2.4.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/vendor/typed.js/typed.umd.js') }}"></script>
     <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/animate-heading.js') }}"></script>
+
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
 
 

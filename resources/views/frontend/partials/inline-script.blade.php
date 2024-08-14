@@ -1,5 +1,4 @@
 <script>
-
     
     $(document).ready(function() {
         $(document).on('click', '#get_in_touch_submit_btn', function(e) {
