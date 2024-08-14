@@ -15,4 +15,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::post('/get-touch', 'App\Http\Controllers\Frontend\FrontendFormController@contact')->name('frontend.contact');
+
 require __DIR__.'/auth.php';

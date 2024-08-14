@@ -599,7 +599,10 @@
             </div>
   
             <div class="col-lg-8">
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <form action="{{ route('frontend.contact') }}" method="post" class="php-email-form" id="php-email-form" data-aos="fade-up" data-aos-delay="200" >
+                @csrf
+                <div class="error-message"></div>
+
                 <div class="row gy-4">
   
                   <div class="col-md-6">
@@ -617,6 +620,27 @@
                   <div class="col-md-12">
                     <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                   </div>
+
+                  <div class="btn-wrapper">
+                    <button type="submit" id="get_in_touch_submit_btn" class="boxed-btn">Submit
+                        Now</button>
+                    <div class="ajax-loading-wrap hide">
+                        <div class="sk-fading-circle">
+                            <div class="sk-circle1 sk-circle"></div>
+                            <div class="sk-circle2 sk-circle"></div>
+                            <div class="sk-circle3 sk-circle"></div>
+                            <div class="sk-circle4 sk-circle"></div>
+                            <div class="sk-circle5 sk-circle"></div>
+                            <div class="sk-circle6 sk-circle"></div>
+                            <div class="sk-circle7 sk-circle"></div>
+                            <div class="sk-circle8 sk-circle"></div>
+                            <div class="sk-circle9 sk-circle"></div>
+                            <div class="sk-circle10 sk-circle"></div>
+                            <div class="sk-circle11 sk-circle"></div>
+                            <div class="sk-circle12 sk-circle"></div>
+                        </div>
+                    </div>
+                </div>
   
                 </div>
               </form>
@@ -635,7 +659,6 @@
       </section>
 
     </div>
-
 
     <!-- js here -->
     <script src="{{ asset('assets/frontend/js/animate-heading.js') }}"></script>
@@ -661,6 +684,9 @@
     <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
 
+
+    @include('frontend.partials.inline-script')
+    
 </body>
 
 </html>
