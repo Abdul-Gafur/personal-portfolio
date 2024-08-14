@@ -862,7 +862,7 @@ section,
 
 /* 4. About */
 .content {
-    margin: 66px 0;
+    margin: 25px 0;
     position: relative;
 }
 .section-head h1 {
@@ -1025,7 +1025,7 @@ section,
     width: 520px;  /* Adjust size as needed */
     background-color: #ffffff;
     padding: 30px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cfd4e4;
     border-radius: 12px;
     margin: 20px auto; /* Center horizontally within its column */
     color: #333;
@@ -1042,10 +1042,10 @@ section,
     background-color: var(--accent-color); /* Color of the line */
 }
 
-.project-content:hover {
+/* .project-content:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .project-content .title {
     font-size: 24px;
@@ -1112,7 +1112,6 @@ section,
     width: 520px;
     height: 400px;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive Design */

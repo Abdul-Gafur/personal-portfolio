@@ -79,10 +79,11 @@
                             alt="">
                     </div>
 
-                    <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in" data-aos-delay="100">
+                    <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in"
+                        data-aos-delay="100">
                         <h2>Abdul-Gafur Saeed</h2>
                         <p>I'm a <span class="typed"
-                                data-typed-items="Web Developer, Laravel Developer, PHP Developer, SQL Developer">Software
+                                data-typed-items="Web Developer, Laravel Developer, PHP Developer, System Analyst, Technical Facilitator, NextCloud Administrator">Software
                                 Developer</span><span class="typed-cursor typed-cursor--blink"></span></p>
                         <div class="social-links">
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -127,8 +128,11 @@
                                     <span class="span"></span>
                                 </div>
                                 <p>I'm a software developer specializing in web development, building exceptional
-                                    frontend and backend web experiences. I'm from Ghana. Currently, I'm expanding my skill set into Artificial Intellgence (AI) and Machine Learning (ML) to pioneer AI-driven applications and I'm actively
-                                    seeking job opportunities that align with ny passion for innovative technology solutions.</p>
+                                    frontend and backend web experiences. I'm from Ghana. Currently, I'm expanding my
+                                    skill set into Artificial Intellgence (AI) and Machine Learning (ML) to pioneer
+                                    AI-driven applications and I'm actively
+                                    seeking job opportunities that align with ny passion for innovative technology
+                                    solutions.</p>
                                 <a href="#" class="btn mt-30">Download CV</a>
                             </div>
                         </div>
@@ -149,7 +153,7 @@
                                 <div class="skills-progress-bar">
                                     <div class="single-progress-bar">
                                         <div class="progressbar-label">
-                                            <h5>Html <span class="f-right">95%</span></h5>
+                                            <h5>HTML/CSS <span class="f-right">95%</span></h5>
                                             <div class="progress">
                                                 <div class="progress-bar w-95" role="progressbar" aria-valuenow="95"
                                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -158,16 +162,7 @@
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progressbar-label">
-                                            <h5>Css <span class="f-right">90%</span></h5>
-                                            <div class="progress">
-                                                <div class="progress-bar w-90" role="progressbar" aria-valuenow="90"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-progress-bar">
-                                        <div class="progressbar-label">
-                                            <h5>Js <span class="f-right">60%</span></h5>
+                                            <h5>Javascript <span class="f-right">60%</span></h5>
                                             <div class="progress">
                                                 <div class="progress-bar w-60" role="progressbar" aria-valuenow="60"
                                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -176,18 +171,54 @@
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progressbar-label">
-                                            <h5>Python <span class="f-right">70%</span></h5>
+                                            <h5>Python/Django<span class="f-right">70%</span></h5>
                                             <div class="progress">
-                                                <div class="progress-bar w-70" role="progressbar" aria-valuenow="80"
+                                                <div class="progress-bar w-70" role="progressbar" aria-valuenow="70"
                                                     aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progressbar-label">
-                                            <h5>PHP <span class="f-right">80%</span></h5>
+                                            <h5>PHP/Laravel/CodeIgniter <span class="f-right">85%</span></h5>
                                             <div class="progress">
-                                                <div class="progress-bar w-80" role="progressbar" aria-valuenow="80"
+                                                <div class="progress-bar w-80" role="progressbar" aria-valuenow="85"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-progress-bar">
+                                        <div class="progressbar-label">
+                                            <h5>MySQL <span class="f-right">75%</span></h5>
+                                            <div class="progress">
+                                                <div class="progress-bar w-80" role="progressbar" aria-valuenow="75"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-progress-bar">
+                                        <div class="progressbar-label">
+                                            <h5>Nextcloud<span class="f-right">70%</span></h5>
+                                            <div class="progress">
+                                                <div class="progress-bar w-80" role="progressbar" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-progress-bar">
+                                        <div class="progressbar-label">
+                                            <h5>Git and Github<span class="f-right">85%</span></h5>
+                                            <div class="progress">
+                                                <div class="progress-bar w-80" role="progressbar" aria-valuenow="85"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-progress-bar">
+                                        <div class="progressbar-label">
+                                            <h5>Docker<span class="f-right">60%</span></h5>
+                                            <div class="progress">
+                                                <div class="progress-bar w-80" role="progressbar" aria-valuenow="60"
                                                     aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
                                         </div>
@@ -202,7 +233,7 @@
         <!-- ABOUT SECTION END -->
 
         <!-- experience Section -->
-        <section id="experience" class="experience section" >
+        <section id="experience" class="experience section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
@@ -223,12 +254,16 @@
                                 <a class="nav-link" data-bs-toggle="tab" href="#experience-tab-2">Namibra Inc</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#experience-tab-5">High Ranking Academy</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="tab" href="#experience-tab-3">Nifty Global
                                     Systems</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="tab" href="#experience-tab-4">Nonihub</a>
                             </li>
+
                         </ul>
                     </div>
                     <div class="col-lg-9 mt-4 mt-lg-0">
@@ -236,17 +271,25 @@
                             <div class="tab-pane active show" id="experience-tab-1">
                                 <div class="row">
                                     <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Software Developer @ Paahibu Space</h3>
+                                        <h3>CTO and Software Developer @ <a href="http://www.paahibuspace.org">Paahibu Space</a></h3>
                                         <p class="fst-italic">2021 - Present</p>
-                                        <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
-                                            Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est
-                                            repellat minima eveniet eius et quis magni nihil.</p>
+                                        <p>
+                                            I serve as the Chief Technology Officer (CTO) and Software Developer at Paahibu Space, a technology and entrepreneurship development organization. In this role, I lead the development of innovative technology solutions to support women-led businesses and female entrepreneurs. My responsibilities include: <br>
+                                            
+                                            - Developing and implementing technology strategies to drive business growth <br>
+                                            - Designing and building software applications to meet the needs of our community <br>
+                                            - Collaborating with cross-functional teams to integrate technology solutions <br>
+                                            - Mentoring and empowering women and girls in STEAM education and careers <br>
+                                            - Facilitating STEAM prorams</p>
                                         <div class="work-skills">
                                             <ul>
-                                                <li>Bootstrap</li>
+                                                <li>HTML/CSS</li>
                                                 <li>PHP</li>
                                                 <li>Javascript</li>
                                                 <li>Python</li>
+                                                <li>MySQL</li>
+                                                <li>Docker</li>
+                                                <li>Cloud</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -255,43 +298,116 @@
                             <div class="tab-pane" id="experience-tab-2">
                                 <div class="row">
                                     <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Namibra Inc</h3>
-                                        <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente
-                                            dila parde sonata raqer a videna mareta paulona marka</p>
-                                        <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et
-                                            reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et
-                                            velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto
-                                            madirna desera vafle de nideran pal</p>
+                                        <h3>Full-stack Developer @ <a href="http://www.namibra.io">Namibra Inc</a></h3>
+                                        <p class="fst-italic">2023 - 2024</p>
+                                        <p>As a full stack developer at Namibra, I design, develop, and deploy innovative software solutions that drive business success. My expertise spans the entire technology stack, from front-end user interfaces to back-end infrastructure. My responsibilities included: <br>
+                                            
+                                            - Developing scalable, efficient, and reliable software applications <br>
+                                            - Collaborating with cross-functional teams to identify and prioritize project requirements <br>
+                                            - Writing clean, modular, and well-documented code <br>
+                                            - Troubleshooting and debugging issues to ensure smooth application performance <br>
+                                            - Staying up-to-date with industry trends and emerging technologies to continuously improve skills and knowledge</p>
+
+                                            <div class="work-skills">
+                                                <ul>
+                                                    <li>HTML/CSS</li>
+                                                    <li>PHP/Laravel</li>
+                                                    <li>Javascript/React</li>
+                                                    <li>SQL/MySQL</li>
+                                                    <li>Docker</li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="experience-tab-5">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Software Developer and Facilitator @ <a href="http://www.highranking.online">High Ranking Academy</a></h3>
+                                        <p class="fst-italic">2020 - 2022 (Contract)</p>
+                                        <p>I worked with High Ranking on a contract basis to design and develop a comprehensive School Management System, streamlining their administrative processes and improving operational efficiency. Additionally, I provided training and support to their staff on: <br>
+                                            
+                                            - Cloud storage solutions: Nextcloud, Dropbox, Google Drive <br>
+                                            - Digital literacy: best practices for effective technology adoption <br>
+                                            
+                                            Deliverables: <br>
+                                            
+                                            - A customized School Management System to meet High Ranking's specific needs <br>
+                                            - Enhanced staff digital literacy and cloud storage skills <br>
+                                            - Improved operational efficiency and productivity <br>
+                                            
+                                            I successfully delivered this project on a contract basis, demonstrating my expertise in: <br>
+                                            
+                                            - Software development and deployment <br>
+                                            - Technology training and adoption <br>
+                                            - Cloud storage solutions and digital literacy <br>
+                                            - Project management and delivery <br>
+                                        </p>
+
+                                        <div class="work-skills">
+                                            <ul>
+                                                <li>HTML/CSS</li>
+                                                <li>PHP/Laravel</li>
+                                                <li>Javascript/React</li>
+                                                <li>SQL/MySQL</li>
+                                                <li>Git/Gihub</li>
+                                                <li>Nextcloud</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="experience-tab-3">
                                 <div class="row">
                                     <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Nifty Global Systems</h3>
-                                        <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non
-                                            enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat
-                                            perferendis aut</p>
-                                        <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis
-                                            quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima
-                                            molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam.
-                                            Soluta et harum voluptatem optio quae</p>
+                                        <h3>Full-stack Developer @ <a href="http://www.niftyglobalsystems.com">Nifty Global Systems</a></h3>
+                                        <p class="fst-italic">2020 - 2022 (Part-time)</p>
+                                        <p>As a full stack developer at Nifty Global Systems, I played a key role in designing, developing, and deploying innovative software solutions that drove business growth. My responsibilities included:
+                                            
+                                            - Developing scalable, efficient, and reliable software applications using a range of technologies <br>
+                                            - Collaborating with cross-functional teams to identify and prioritize project requirements <br>
+                                            - Writing clean, modular, and well-documented code for both front-end and back-end development <br>
+                                            - Troubleshooting and debugging issues to ensure smooth application performance <br>
+                                            - Staying up-to-date with industry trends and emerging technologies to continuously improve skills and knowledge</p>
+
+                                            <div class="work-skills">
+                                                <ul>
+                                                    <li>HTML/CSS</li>
+                                                    <li>PHP/Laravel</li>
+                                                    <li>Javascript/React</li>
+                                                    <li>SQL/MySQL</li>
+                                                    <li>APIs</li>
+                                                    <li>Python/Django</li>
+                                                </ul>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="experience-tab-4">
                                 <div class="row">
                                     <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Nonihub</h3>
-                                        <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure
-                                            voluptas iure porro quis delectus</p>
-                                        <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam
-                                            necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in
-                                            consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam
-                                            quia a laborum inventore</p>
+                                        <h3>Assistant Technical Lead @ <a href="http://www.nonihub.org">Nonihub</a></h3>
+                                        <p class="fst-italic">2020 - 2022 (Internship)</p>
+                                        <p>As a Tech Lead and Technical Facilitator at Nonihub, a center for technological innovation and practical entrepreneurship, I empower individuals and teams to leverage technology for impact. My responsibilities included: <br>
+                                            
+                                            - Leading technical teams and mentoring entrepreneurs to develop innovative solutions <br>
+                                            - Designing and delivering hands-on training programs in cutting-edge technologies <br>
+                                            - Facilitating workshops and hackathons to foster collaboration and innovation <br>
+                                            - Collaborating with stakeholders to develop and implement technology strategies <br>
+                                            - Staying up-to-date with industry trends and emerging technologies to continuously improve programs and services <br><br>
+                                            
+                                            Expertise:  <br>
+
+                                            - Technical leadership and team management <br>
+                                            - Technology training and facilitation <br>
+                                            - Innovation and entrepreneurship support <br>
+                                            - Program design and implementation <br>
+                                            - Industry trend analysis and application <br>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -323,9 +439,11 @@
                                 <li>CodeIgniter</li>
                             </ul>
                             <p class="fst-italic">Inventory and Point Of Sale software</p>
-                            <p>MyPOS is built with PHP CodeIgniter, MyPOS is a versatile point of sale solution for various businesses, including pharmacies, cosmetics stores, supermarkets, and more.
-                                Key features include Inventory management, Point of Sale (POS), Transaction reporting and User management
-                                </p>
+                            <p>MyPOS is built with PHP CodeIgniter, MyPOS is a versatile point of sale solution for
+                                various businesses, including pharmacies, cosmetics stores, supermarkets, and more.
+                                Key features include Inventory management, Point of Sale (POS), Transaction reporting
+                                and User management
+                            </p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
                                 <a href="#">Website <i class="fab fa-link"></i></a>
@@ -334,14 +452,14 @@
                     </div>
 
                     <div class="col-lg-6 project-image">
-                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                        <img src="{{ asset('assets/frontend/images/projects/mypos.png') }}" alt=""
                             class="img-fluid">
                     </div>
                 </div>
                 {{-- project 2 --}}
                 <div class="row" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-lg-6 project-image">
-                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                        <img src="{{ asset('assets/frontend/images/projects/lorut.png') }}" alt=""
                             class="img-fluid">
                     </div>
 
@@ -355,11 +473,15 @@
                                 <li>MySQL</li>
                                 <li>Laravel</li>
                             </ul>
-                            <p class="fst-italic">A comprehensive SMS to streamline administrative tasks and enhance student management for educational institutions.</p>
-                            <p>This system enables administrators to efficiently manage student records, track attendance, grades, and fees, as well as communicate with parents and teachers. Key features include Student information management, Exam management, Fee management, SMS, Email messaging and reporting</p>
+                            <p class="fst-italic">A comprehensive SMS to streamline administrative tasks and enhance
+                                student management for educational institutions.</p>
+                            <p>This system enables administrators to efficiently manage student records, track
+                                attendance, grades, and fees, as well as communicate with parents and teachers. Key
+                                features include Student information management, Exam management, Fee management, SMS,
+                                Email messaging and reporting</p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
-                                <a href="#">Website <i class="fab fa-link"></i></a>
+                                <a href="https://lorutshs.octutorialcollege.org/" target="_blank">Website <i class="fab fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -379,16 +501,18 @@
                                 <li>SEO</li>
                             </ul>
                             <p class="fst-italic">Omission and Comissions tutorial College Website and Admin CMS</p>
-                            <p>OCTC is a tutorial college serving the legal needs of students desirous of studying law & for those studying law to improve upon the content received from their various faculties and schools to enable them get into the professional law course to become lawyers.</p>
+                            <p>OCTC is a tutorial college serving the legal needs of students desirous of studying law &
+                                for those studying law to improve upon the content received from their various faculties
+                                and schools to enable them get into the professional law course to become lawyers.</p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
-                                <a href="#">Website <i class="fas fa-link"></i></a>
+                                <a href="https://octutorialcollege.org" target="_blank">Website <i class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6 project-image">
-                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                        <img src="{{ asset('assets/frontend/images/projects/octut.png') }}" alt=""
                             class="img-fluid">
                     </div>
                 </div>
@@ -404,22 +528,25 @@
                                 <li>MySQL</li>
                                 <li>PHP</li>
                                 <li>Laravel</li>
-                                <li>System analyst</li>
+                                <li>Agile development methodologies</li>
                                 <li>Infrasture analyst</li>
                                 <li>Project manager</li>
                                 <li>security analyst</li>
                             </ul>
-                            <p class="fst-italic">A Web based platform that leverages AI to enable users chat with their documents</p>
-                            <p>A web platform that leverages artificial intelligence to transform how users interact with documents. It enables users to engage in real-time, interactive conversations with their content, making document handling more dynamic and efficient.</p>
+                            <p class="fst-italic">A Web based platform that leverages AI to enable users chat with
+                                their documents</p>
+                            <p>A web platform that leverages artificial intelligence to transform how users interact
+                                with documents. It enables users to engage in real-time, interactive conversations with
+                                their content, making document handling more dynamic and efficient.</p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
-                                <a href="#">Website <i class="fas fa-link"></i></a>
+                                <a href="https://chatdocs.paahibuspace.org" target="_blank">Website <i class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6 project-image">
-                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                        <img src="{{ asset('assets/frontend/images/projects/chatdocs.png') }}" alt=""
                             class="img-fluid">
                     </div>
                 </div>
@@ -435,20 +562,21 @@
                                 <li>MySQL</li>
                                 <li>PHP</li>
                                 <li>Laravel</li>
-                                <li>System analyst</li>
+                                <li>Agile development methodologies</li>
                             </ul>
                             <p class="fst-italic">High Ranking Academy school website and School Management System</p>
                             <p>A comprehensive SMS to enhance student management for educational institutions.</p>
-                            <p>This system enables administrators to efficiently manage student records, track attendance, grades, and fees, as well as communicate with parents and teachers. </p>
+                            <p>This system enables administrators to efficiently manage student records, track
+                                attendance, grades, and fees, as well as communicate with parents and teachers. </p>
                             <div class="d-flex">
                                 <a href="#">code <i class="fab fa-github"></i></a>
-                                <a href="#">Website <i class="fas fa-link"></i></a>
+                                <a href="https://highranking.online" target="_blank">Website <i class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6 project-image">
-                        <img src="{{ asset('assets/frontend/images/projects/project1.jpeg') }}" alt=""
+                        <img src="{{ asset('assets/frontend/images/projects/hira.png') }}" alt=""
                             class="img-fluid">
                     </div>
                 </div>
@@ -459,18 +587,18 @@
         </section>
 
         <!-- Reviews Section -->
-    <section id="reviews" class="reviews section">
+        <section id="reviews" class="reviews section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>04. Reviews</h2>
-          <div><span>What Co-workers and Employers</span> <span class="description-title">Say</span></div>
-        </div><!-- End Section Title -->
-  
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-  
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>04. Reviews</h2>
+                <div><span>What Co-workers and Employers</span> <span class="description-title">Say</span></div>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 600,
@@ -495,168 +623,198 @@
                 }
               }
             </script>
-            <div class="swiper-wrapper">
-  
-              <div class="swiper-slide">
-                <div class="review-item">
-                  <p>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  </p>
-                  <div class="profile mt-auto">
-                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img" alt="">
-                    <h3>Hiqmat Sungdeme Saani</h3>
-                    <h4>Ceo &amp; Founder</h4>
-                  </div>
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="review-item">
+                                <p>
+                                    I've had the pleasure of working with Abdul-Gafur as a full-stack developer at
+                                    Namibra, and I can confidently attest to his exceptional skills and dedication. He
+                                    has consistently delivered high-quality work, demonstrating expertise in both
+                                    front-end and back-end development. Their ability to tackle complex projects and
+                                    collaborate with the team has been impressive.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img"
+                                        alt="">
+                                    <h3>Mohammed Amin</h3>
+                                    <h4><a href="http://www.namibra.io">Co-founder &amp; Namibra Ic</a></h4>
+                                </div>
+                            </div>
+                        </div><!-- End review item -->
+
+                        <div class="swiper-slide">
+                            <div class="review-item">
+                                <p>
+                                    I had the opportunity to work with Abdul-Gafur Saeed during his tenure at Noni Hub,
+                                    and I was impressed by his technical prowess and leadership skills. As a full-stack
+                                    developer and facilitator, he demonstrated a deep understanding of software
+                                    development principles and effectively contributed to our team's success.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img"
+                                        alt="">
+                                    <h3>Mr. Sumaila Chakura</h3>
+                                    <h4><a href="http://www.nonihub.org">CEO @ Noni Hub</a></h4>
+                                </div>
+                            </div>
+                        </div><!-- End review item -->
+
+                        <div class="swiper-slide">
+                            <div class="review-item">
+                                <p>
+                                    I've had the pleasure of working alongside with Abdul at Paahibu Space, and I've
+                                    witnessed his exceptional skills and dedication firsthand. He possess a unique blend
+                                    of technical expertise, creativity, and collaboration skills, making them an
+                                    invaluable team player. His ability to adapt to new challenges and consistently
+                                    deliver high-quality work has been impressive. I highly recommend Abdul for any
+                                    development role, and I'm confident that he will continue to excel in his career and
+                                    make significant contributions to his future teams
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img"
+                                        alt="">
+                                    <h3>Ayishatu Saeed </h3>
+                                    <h4><a href="http://www.paahibuspce.org">Chief Operations Officer @ Paahibu
+                                            Space</a></h4>
+                                </div>
+                            </div>
+                        </div><!-- End review item -->
+
+                        <div class="swiper-slide">
+                            <div class="review-item">
+                                <p>
+                                    "Abdul-Gafur has been an absolute pleasure to work with as a technical facilitator.
+                                    I've had the opportunity to collaborate with him on several projects, and I've been
+                                    consistently impressed by his exceptional technical expertise, patience, and ability
+                                    to distill complex concepts into clear, actionable insights.
+
+                                    I've witnessed Abdul-Gafur effectively facilitate technical training sessions,
+                                    troubleshoot complex issues, and provide guidance on best practices.
+
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img"
+                                        alt="">
+                                    <h3>Nutuo Tracey </h3>
+                                    <h4>Data Analyst</h4>
+                                </div>
+                            </div>
+                        </div><!-- End review item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-              </div><!-- End review item -->
-  
-              <div class="swiper-slide">
-                <div class="review-item">
-                  <p>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  </p>
-                  <div class="profile mt-auto">
-                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img" alt="">
-                    <h3>Ayishetu Saeed</h3>
-                    <h4>COO @ Paahibu Space</h4>
-                  </div>
-                </div>
-              </div><!-- End review item -->
-  
-              <div class="swiper-slide">
-                <div class="review-item">
-                  <p>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  </p>
-                  <div class="profile mt-auto">
-                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img" alt="">
-                    <h3>Mohammed Amiin</h3>
-                    <h4>Co Founder @ Namiba Inc</h4>
-                  </div>
-                </div>
-              </div><!-- End review item -->
-  
-              <div class="swiper-slide">
-                <div class="review-item">
-                  <p>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  </p>
-                  <div class="profile mt-auto">
-                    <img src="{{ asset('assets/frontend/images/profile.png') }}" class="review-img" alt="">
-                    <h3>Benson </h3>
-                    <h4>Freelancer</h4>
-                  </div>
-                </div>
-              </div><!-- End review item -->
 
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
-  
-        </div>
-  
-      </section><!-- /Reviews Section -->
+
+        </section><!-- /Reviews Section -->
 
 
-      <!-- Contact Section -->
-    <section id="contact" class="contact">
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <div><span>Contact</span> <span class="description-title">Me</span></div>
-        </div><!-- End Section Title -->
-  
-        <div class="container" data-aos="fade" data-aos-delay="100">
-  
-          <div class="row gy-4">
-  
-            <div class="col-lg-4">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="fas fa-location-dot flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>Bomiyiri, Wa-UWR, Ghana</p>
-                </div>
-              </div><!-- End Info Item -->
-  
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="fas fa-phone flex-shrink-0"></i>
-                <div>
-                  <h3>Call or WhatsApp</h3>
-                  <p>+233 54 732 2637</p>
-                </div>
-              </div><!-- End Info Item -->
-  
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="far fa-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Me</h3>
-                  <p><a href="mailto:abdulgfurshaattir@gmail.com">abdulgafurshaattir@gmail</a></p>
-                </div>
-              </div><!-- End Info Item -->
-  
-            </div>
-  
-            <div class="col-lg-8">
-              <form action="{{ route('frontend.contact') }}" method="post" class="php-email-form" id="php-email-form" data-aos="fade-up" data-aos-delay="200" enctype="multipart/form-data">
-                @csrf
-                <div class="error-message"></div>
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <div><span>Contact</span> <span class="description-title">Me</span></div>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade" data-aos-delay="100">
 
                 <div class="row gy-4">
-  
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                  </div>
-  
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                  </div>
-  
-                  <div class="col-md-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                  </div>
-  
-                  <div class="col-md-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                  </div>
 
-                  <div class="btn-wrapper">
-                    <button type="submit" id="get_in_touch_submit_btn" class="boxed-btn">Submit
-                        Now</button>
-                    <div class="ajax-loading-wrap hide">
-                        <div class="sk-fading-circle">
-                            <div class="sk-circle1 sk-circle"></div>
-                            <div class="sk-circle2 sk-circle"></div>
-                            <div class="sk-circle3 sk-circle"></div>
-                            <div class="sk-circle4 sk-circle"></div>
-                            <div class="sk-circle5 sk-circle"></div>
-                            <div class="sk-circle6 sk-circle"></div>
-                            <div class="sk-circle7 sk-circle"></div>
-                            <div class="sk-circle8 sk-circle"></div>
-                            <div class="sk-circle9 sk-circle"></div>
-                            <div class="sk-circle10 sk-circle"></div>
-                            <div class="sk-circle11 sk-circle"></div>
-                            <div class="sk-circle12 sk-circle"></div>
-                        </div>
+                    <div class="col-lg-4">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-location-dot flex-shrink-0"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Bomiyiri, Wa-UWR, Ghana</p>
+                            </div>
+                        </div><!-- End Info Item -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-phone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call or WhatsApp</h3>
+                                <p>+233 54 732 2637</p>
+                            </div>
+                        </div><!-- End Info Item -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="far fa-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Me</h3>
+                                <p><a href="mailto:abdulgfurshaattir@gmail.com">abdulgafurshaattir@gmail</a></p>
+                            </div>
+                        </div><!-- End Info Item -->
+
                     </div>
-                </div>
-  
-                </div>
-              </form>
-            </div><!-- End Contact Form -->
-  
-          </div>
-  
-        </div>
-  
-      </section><!-- /Contact Section -->
 
-      {{-- Footer starts --}}
-      <section class="footer">
-       <p> &copy; <b>Ghaf Portfolio Website</b> All Rights Reserved <br>
-        Designed with &hearts; by Abdul-Gafur</p>
-      </section>
+                    <div class="col-lg-8">
+                        <form action="{{ route('frontend.contact') }}" method="post" class="php-email-form"
+                            id="php-email-form" data-aos="fade-up" data-aos-delay="200"
+                            enctype="multipart/form-data">
+                            @csrf
+                            <div class="error-message"></div>
+
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control"
+                                        placeholder="Your Name" required="">
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Your Email" required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                                </div>
+
+                                <div class="btn-wrapper">
+                                    <button type="submit" id="get_in_touch_submit_btn" class="boxed-btn">Submit
+                                        Now</button>
+                                    <div class="ajax-loading-wrap hide">
+                                        <div class="sk-fading-circle">
+                                            <div class="sk-circle1 sk-circle"></div>
+                                            <div class="sk-circle2 sk-circle"></div>
+                                            <div class="sk-circle3 sk-circle"></div>
+                                            <div class="sk-circle4 sk-circle"></div>
+                                            <div class="sk-circle5 sk-circle"></div>
+                                            <div class="sk-circle6 sk-circle"></div>
+                                            <div class="sk-circle7 sk-circle"></div>
+                                            <div class="sk-circle8 sk-circle"></div>
+                                            <div class="sk-circle9 sk-circle"></div>
+                                            <div class="sk-circle10 sk-circle"></div>
+                                            <div class="sk-circle11 sk-circle"></div>
+                                            <div class="sk-circle12 sk-circle"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div><!-- End Contact Form -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Contact Section -->
+
+        {{-- Footer starts --}}
+        <section class="footer">
+            <p> &copy; <b>Ghaf Portfolio Website</b> All Rights Reserved <br>
+                Designed with &hearts; by Abdul-Gafur</p>
+        </section>
 
     </div>
 
@@ -688,7 +846,7 @@
 
 
     @include('frontend.partials.inline-script')
-    
+
 </body>
 
 </html>
