@@ -17,4 +17,6 @@ Route::middleware('auth')->group(function () {
 
 Route::post('/get-touch', 'App\Http\Controllers\Frontend\FrontendFormController@contact')->name('frontend.contact');
 
+Route::get('/download-resume', 'App\Http\Controllers\Frontend\FrontendController@downloadResume')->name('frontend.resume');
+
 require __DIR__.'/auth.php';

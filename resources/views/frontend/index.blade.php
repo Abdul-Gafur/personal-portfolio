@@ -133,7 +133,7 @@
                                     AI-driven applications and I'm actively
                                     seeking job opportunities that align with ny passion for innovative technology
                                     solutions.</p>
-                                <a href="#" class="btn mt-30">Download CV</a>
+                                <a href="{{ route('frontend.resume') }}" class="btn mt-30">Download CV</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
